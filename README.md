@@ -73,7 +73,7 @@ and set `use_tensorboard = True` in `ROOT/train.py`.
                 | B   |   17  |    29  |
                 
    It may be noted that the results are slightly different from the paper. This is due to a few implementation differences as the earlier implementation was in torch-lua. Contact me if torch models (that were used for the paper) are required.
-
+4.Add src/new_data_loader.py for reading file list when loading data.
 
            
 
